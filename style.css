@@ -165,3 +165,54 @@ nav .menu li a{
     line-height: 20px;
     color: #627382;
 }
+
+#solution-section{
+    align-items: center;
+    padding: 120px 120px;
+}
+
+#solution-section .solution-container{
+    /* padding: 120px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-container .img-container{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.solution-container .solution-desc{
+    width: 700px;
+}
+
+.solution-desc h5{
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.solution-desc h3{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.solution-desc p{
+    font-size: 12px;
+    color: #627382;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+.solution-desc .option{
+    list-style-type: none;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 600;
+
+}
