@@ -216,3 +216,57 @@ nav .menu li a{
     font-weight: 600;
 
 }
+#access-section{
+    align-items: center;
+    /* padding: 0px 120px; */
+}
+
+#access-section .access-container{
+    margin: 0px 180px 120px;
+    align-items: center;
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+}
+
+.access-container h3{
+    padding-top: 80px;
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.access-container p{
+    font-size: 12px;
+    line-height: 24px;
+    color: #627382;
+    margin: 16px 0px;
+}
+
+#footer-section{
+    background-color: #001931;
+}
+
+#footer-section .footer-container{
+    padding: 120px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .footer-img{
+    width: 139px;
+    height: 60px;
+}
+
+.footer-container .social{
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 28px;
+}
+
+
