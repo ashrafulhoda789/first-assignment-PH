@@ -23,6 +23,11 @@
     font-size: 16px;
 }
 
+.btn:hover{
+    background-color: rgb(203, 235, 166);
+    color: #001931;
+}
+
 header{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
@@ -75,6 +80,12 @@ nav .menu li a{
     font-size: 12px;
 }
 
+.btn-1:hover{
+    background-color: #627382;
+    color: white;
+    cursor: pointer;
+}
+
 #banner .banner-container .title1{
     color: white;
     font-size: 55px;
@@ -96,7 +107,7 @@ nav .menu li a{
 }
 
 #banner .banner-container .btn-2{
-    background-color: transparent;
+    background: transparent;
     border: 1px solid white;
     color: white;
     border-radius: 4px;
