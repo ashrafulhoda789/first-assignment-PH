@@ -103,6 +103,7 @@ nav .menu li a{
     cursor: pointer;
     font-size: 16px;
     padding: 16px 12px;
+    margin-left: 10px;
 }
 
 #card-section{
@@ -251,11 +252,17 @@ nav .menu li a{
 }
 
 #footer-section .footer-container{
-    padding: 120px 120px;
+    padding: 120px 120px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+#footer-section hr{
+    color: white;
+    margin: 0px 120px;
+}
+
 
 .footer-container .footer-img{
     width: 139px;
@@ -269,4 +276,11 @@ nav .menu li a{
     line-height: 28px;
 }
 
-
+.last-footer{
+    margin: 20px 120px 0px;
+    text-align: center;
+    /* border-top: white; */
+    color: #FAFAFA;
+    line-height: 24px;
+    font-size: 16px;
+}
