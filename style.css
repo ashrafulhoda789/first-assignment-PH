@@ -104,3 +104,64 @@ nav .menu li a{
     font-size: 16px;
     padding: 16px 12px;
 }
+
+#card-section{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+
+#card-section .card-desc{
+    text-align: center;
+    padding: 0px 120px;
+}
+
+#card-section .card-desc h3{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+#card-section .card-desc p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.card-container{
+    padding: 44px 120px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.card-container .card{
+    align-items: center;
+    text-align: center;
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 40px gainsboro;
+    width: 322px;
+    padding: 70px 24px  21px;
+}
+
+.card-container .card img{
+    margin-bottom: 16px;
+}
+
+.card-container .card h4{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.card-container .card p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #627382;
+}
